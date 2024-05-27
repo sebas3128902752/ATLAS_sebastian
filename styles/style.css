@@ -1,0 +1,209 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#seccion1{
+    background-image: url(../assets/img/banner-bk.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    
+}
+#superior{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 100px 0px 100px;
+   align-items: center;
+}
+#logo{
+    justify-content: flex-start;
+}
+#texto{
+     justify-content: flex-end;
+     
+}
+#banner-bk{
+    width: 150px;
+
+}
+#texto1{
+    padding:30px 0px 0px 100px ;
+    font-size: 90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#texto22{
+    padding:30px 0px 0px 100px ;
+    width: 950px;
+    font-size: 20px;
+}
+#boton1{
+    margin: 20px 0px 0px 100px;
+    background-color: #00FFAD;
+    height: 50px;
+    width: 150px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 35px;
+}
+/*seccion 2 de la pagina*/
+#seccion2{
+text-align: center;   
+justify-content: center; 
+padding: 100px 90px 100px 90px;
+}
+#sup-1{
+    display: flex;
+    text-align: center;   
+    justify-content: center; 
+    justify-content: space-around;
+}
+#sup-2{
+    display: flex;
+    text-align: center;   
+    justify-content: center; 
+    justify-content: space-around;
+    font-style:inherit;
+    font-size: 30px;
+}
+#sup-3{
+    display: flex;
+    text-align: center;   
+    justify-content: center;
+    justify-content: space-around; 
+}
+#texto4{
+    margin: 0px 0px 100px 0px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*parte 3 de pagina*/
+#seccion3{
+    
+}
+#seccion3-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#texto3-1{
+    font-size: 70px;
+
+}
+#texto3-2{
+    font-size:15px;
+
+}
+#boton3-1{
+    color: white;
+    margin: 20px 0px 0px 0px;
+    background-color: #192440;
+    height: 50px;
+    width: 150px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 35px;
+}
+#seccion3-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*seccion 4*/
+#seccion4-1{
+    margin: 50px 10px 50px 10px ;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+#carta1-4{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carta2-4{
+    color: white;
+    background-color: #192440;
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carta3-4{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lista1{
+    list-style: none;
+}
+#conten-list{
+    font-size: 24px;
+    margin: 9px 0px 9px 0px;
+}
+#boton-carta-1{
+    border-color: #192440;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    border-width: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    color: #192440;
+}
+#boton-carta-2{
+    background-color: #00FFAD;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    border-width: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    color: #192440;
+}
+#title-card{
+    padding-bottom: 20px;
+}
+#monto-1{
+    color: #292B2C;
+    font-size: 40px;
+}
+font{
+    font-size: 60px;
+}
+/* seccion 5 */
+#seccion5{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5vh;
+    background-color: #ECEEEF;
+}
+/* seccion 6 */
+#seccion6{
+    background-image: url(../assets/img/banner-bk.jpg);
+    background-size: cover;
+    padding: 20vh;
+    display: flex;
+    justify-content: center;
+}
+#seccion5-1{
+    color: #ffffff;
+    margin: 0px 800px 0px 0px;
+}
+#seccion5-2{
+
+}
