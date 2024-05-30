@@ -80,9 +80,7 @@ padding: 100px 90px 100px 90px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*parte 3 de pagina*/
-#seccion3{
-    
-}
+
 #seccion3-1{
     display: flex;
     justify-content: center;
@@ -194,7 +192,7 @@ font{
 }
 /* seccion 6 */
 #seccion6{
-    background-image: url(../assets/img/banner-bk.jpg);
+    background-image: url(../assets/img/contact-bk.jpg);
     background-size: cover;
     padding: 20vh;
     display: flex;
@@ -202,8 +200,104 @@ font{
 }
 #seccion5-1{
     color: #ffffff;
-    margin: 0px 800px 0px 0px;
+    margin: 0px 700px 0px 0px;
 }
 #seccion5-2{
 color: #00FFAD;
+}
+#tit{
+    font-size: 45px;
+}
+#seccion5-1{
+    font-size: 25px;
+    padding: 10px;
+}
+#texto5-1{
+    margin: 10px 0px 0px 0px;
+}
+#texto5-2{
+    margin: 35px 0px 0px 0px;
+}
+#texto-box-1{
+    margin: 20px 20px 20px 20x;
+}
+form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 0px #00f7a4;
+    max-width: 400px;
+    width: 15%;
+    position: relative;
+    top: -4px;
+    left: -600px;
+  }
+.Message{
+    color: #00f7a4;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+.form-group {
+    width: 69%;
+    margin-right: 100%; 
+  }
+
+.form-group:last-child {
+    margin-right: 9px; 
+  }
+
+.form-input {
+    padding: 0px 190px 50px 0px;
+    border: 2px solid #00f7a4;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1px;
+    background-color: transparent;
+    color: #00f7a4;
+}
+.form-group1{
+    margin: 4000px 0px 0px 0px;
+    margin-top: -50px;
+}
+.form-input1{
+    padding: 100px 570px 0px 0px;
+    border: 2px solid #00f7a4;
+   
+    background-color: transparent;
+    color: #00f7a4;
+}
+.submit-button{
+    padding: 10px 350px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 90px;
+    border: 2px solid #00f7a4;
+    background-color: #00f7a4;
+}
+footer{
+    color: #ffffff;
+    background-color: #192440;
+    margin: 0px 0px 20px 0px;
+    padding: 90px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;  
+}
+#texto-footer{
+    padding: 0px 0px 20px 80px;
+    margin: 0px 20px 30px 0px;
+}
+#icon-1{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+@media screen and (max-width: 480px) {
+    
 }
