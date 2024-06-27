@@ -185,6 +185,9 @@ font{
 }
 /* seccion 5 */
 #seccion5{
+    position: sticky;
+    bottom: 35px;
+
     display: flex;
     justify-content: space-evenly;
     padding: 5vh;
@@ -298,6 +301,58 @@ footer{
     height: 20px;
 
 }
+#posi{
+    width: 100px;
+    position: relative;
+    bottom: -90px;
+    right: 40%;
+    border-radius: 100%;
+}
 @media screen and (max-width: 480px) {
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    #seccion1{
+        background-image: url(../assets/img/banner-bk.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        color: white;
+        
+    }
+    #superior{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px 100px 0px 100px;
+       align-items: center;
+    }
+    #logo{
+        justify-content: flex-start;
+    }
+    #texto{
+         justify-content: flex-end;
+         
+    }
+    #banner-bk{
+        width: 150px;
     
+    }
+    #texto1{
+        padding:30px 0px 0px 100px ;
+        font-size: 90px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #texto22{
+        padding:30px 0px 0px 100px ;
+        width: 950px;
+        font-size: 20px;
+    }
+    #boton1{
+        margin: 20px 0px 0px 100px;
+        background-color: #00FFAD;
+        height: 50px;
+        width: 150px;
+        border-color: rgba(255, 255, 255, 0);
+        border-radius: 35px;
+    }
 }
